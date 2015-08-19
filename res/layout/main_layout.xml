@@ -6,6 +6,15 @@
         android:id="@+id/btn_send"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:text="send"/>
-
+        android:ellipsize="middle"
+        android:text="sendsssssssssssssssssssssssssssssssssssssssssssssssssssssssss"/>
+    
+    <TextView 
+        android:id="@+id/btn_send2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_below="@id/btn_send"
+        android:text="sendssssssssssssssssssssssssssssssssssssssssssss哈哈"/>
 </RelativeLayout>
